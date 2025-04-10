@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreakThrough Tech Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="dark-mode-toggle">
+                <img src="images/icon-moon.png" alt="Dark Mode Icon">
+            </button>
+        </nav>
+    </header>
+    <section class="hero">
+        <!-- Slideshow for Light Mode -->
+        <div class="slideshow">
+            <h1>BreakThrough Tech Academy</h1>
+            <p>Empowering students with tech skills for the future.</p>
+            <a href="courses.html" class="btn">Browse Courses</a>
+        </div>
+    
+        <!-- Video for Dark Mode -->
+        <div class="video-background">
+            <h1>BreakThrough Tech Academy</h1>
+            <p>Empowering students with tech skills for the future.</p>
+            <a href="courses.html" class="btn">Browse Courses</a>
+            <video autoplay muted loop>
+                <source src="Videos\Particle interconnections.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <section class="approved-by">
+        <h2>Approved By</h2>
+        <div class="logo-container">
+            <img src="images/logo (1).png" alt="Logo 1">
+            <img src="images/logo (2).png" alt="Logo 2">
+            <img src="images/logo (3).png" alt="Logo 3">
+            <img src="images/logo (4).png" alt="Logo 4">
+            <img src="images/logo (5).png" alt="Logo 5">
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="about-us-container">
+            <!-- Left Column: Text -->
+            <div class="about-us-text">
+                <h2>About Us</h2>
+                <p>
+                    At BreakThrough Tech Academy, we are dedicated to empowering students with the skills they need to thrive in the ever-evolving tech industry. 
+                    Our mission is to provide high-quality education in web development, data science, cybersecurity, and artificial intelligence. 
+                    With experienced instructors and hands-on projects, we ensure our students are industry-ready and equipped to tackle real-world challenges.
+                </p>
+                <p>
+                    Join us to unlock your potential and become a part of a community that values innovation, creativity, and excellence.
+                </p>
+            </div>
+            <!-- Right Column: Image -->
+            <div class="about-us-image">
+                <img src="images/Tech Resource.png" alt="About Us Image">
+            </div>
+        </div>
+    </section>
+    <section class="featured-courses">
+        <h2>Featured Courses</h2>
+        <div class="courses">
+            <div class="course">
+                <img src="images/Website design.png" alt="Course 1">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, and JavaScript.</p>
+                <button class="enroll-btn" onclick="openEnrollForm()">Enroll</button>
+            </div>
+            <div class="course">
+                <img src="images/Data science.png" alt="Course 2">
+                <h3>Data Science</h3>
+                <p>Master Python, Pandas, and Machine Learning.</p>
+                <button class="enroll-btn" onclick="openEnrollForm()">Enroll</button>
+            </div>
+            <div class="course">
+                <img src="images/cyber security.png" alt="Course 3">
+                <h3>Cybersecurity</h3>
+                <p>Understand ethical hacking and security protocols.</p>
+                <button class="enroll-btn" onclick="openEnrollForm()">Enroll</button>
+            </div>
+            <div class="course">
+                <img src="images/Ai and Marchine learning.png" alt="Course 3">
+                <h3>AI & Machine Learning</h3>
+                <p>Explore deep learning, neural networks, and AI tools.</p>
+                <button class="enroll-btn" onclick="openEnrollForm()">Enroll</button>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <img src="images/Profile pic.png" alt="Student 1">
+                <p>"This academy has transformed my career. The instructors are amazing!"</p>
+                <div class="stars">
+                    ★★★★☆
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/Profile pic (1).png" alt="Student 2">
+                <p>"The hands-on projects helped me gain real-world experience."</p>
+                <div class="stars">
+                    ★★★★★
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/Profile pic (2).png" alt="Student 3">
+                <p>"I highly recommend this academy to anyone looking to learn tech skills."</p>
+                <div class="stars">
+                    ★★★★☆
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/Profile pic (3).png" alt="Student 3">
+                <p>"It is a really goog Academy."</p>
+                <div class="stars">
+                    ★★★★
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <!-- Left Column: Logo -->
+            <div class="footer-logo">
+                <img src="images/BT logo .png" alt="BreakThrough Tech Academy Logo">
+            </div>
+    
+            <!-- Middle Column: Social Media Buttons -->
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/Social logo (4).png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/Social logo (3).png" alt="Twitter">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/Social logo (2).png" alt="Instagram">
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="images/Social logo (1).png" alt="LinkedIn">
+                </a>
+            </div>
+    
+            <!-- Right Column: Contact Info -->
+            <div class="footer-contact">
+                <p>Email: <a href="mailto:ianjooga@gmail.com">ianjooga@gmail.com</a></p>
+                <p>Phone: +256758391541</p>
+            </div>
+            <p>&copy; 2025 BreakThrough Tech Academy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BreakThrough Tech Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <button id="dark-mode-toggle">
+            <img src="images/icon-moon.png" alt="Dark Mode Icon">
+        </button>
+    </nav>
+</header>
+<body>
+    <main>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p>Have questions? Reach out to us!</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+<footer>
+    <div class="footer-container">
+        <!-- Left Column: Logo -->
+        <div class="footer-logo">
+            <img src="images/BT logo .png" alt="BreakThrough Tech Academy Logo">
+        </div>
+
+        <!-- Middle Column: Social Media Buttons -->
+        <div class="footer-social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/Social logo (4).png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/Social logo (3).png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/Social logo (2).png" alt="Instagram">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="images/Social logo (1).png" alt="LinkedIn">
+            </a>
+        </div>
+
+        <!-- Right Column: Contact Info -->
+        <div class="footer-contact">
+            <p>Email: <a href="mailto:ianjooga@gmail.com">ianjooga@gmail.com</a></p>
+            <p>Phone: +256758391541</p>
+        </div>
+        <p>&copy; 2025 BreakThrough Tech Academy. All rights reserved.</p>
+    </div>
+</footer>
+</html>
