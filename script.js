@@ -9,10 +9,13 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     document.getElementById("success-message").style.display = "block";
 });
 
-document.getElementById("search").addEventListener("input", function() {
-    let query = this.value.toLowerCase();
-    document.querySelectorAll(".course").forEach(course => {
-        course.style.display = course.textContent.toLowerCase().includes(query) ? "block" : "none";
+document.getElementById("search-bar").addEventListener("input", function () {
+    const query = this.value.toLowerCase();
+    const courses = document.querySelectorAll(".course");
+
+    courses.forEach(course => {
+        const courseText = course.textContent.toLowerCase();
+        course.style.display = courseText.includes(query) ? "block" : "none";
     });
 });
 function openEnrollForm() {
